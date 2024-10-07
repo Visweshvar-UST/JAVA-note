@@ -19,8 +19,12 @@ public class Demo {
             return (num1 + num2);
         };
         System.out.println(add3.operate(1,2));
+
         Operation add4 = (int num1, int num2) -> (num1 + num2);
         System.out.println(add4.operate(1,2));
+
+        Operation add5 = (n1, n2) -> (n2 + n2);
+        System.out.println(add5.operate(1,2));
 
     }
 }
