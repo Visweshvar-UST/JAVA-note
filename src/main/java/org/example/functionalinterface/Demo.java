@@ -13,6 +13,14 @@ public class Demo {
                 return num1+num2;
             }
         };
-        System.out.println(add1.operate(1,2));
+        System.out.println(add2.operate(1,2));
+        // using lambda expression
+        Operation add3 = (int num1, int num2) -> {
+            return (num1 + num2);
+        };
+        System.out.println(add3.operate(1,2));
+        Operation add4 = (int num1, int num2) -> (num1 + num2);
+        System.out.println(add4.operate(1,2));
+
     }
 }
