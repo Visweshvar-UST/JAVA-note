@@ -9,6 +9,7 @@ public class QuickStart {
         List<String> inp = new ArrayList<>();
         inp.add("viswa");
         inp.add("axel");
+        inp.add("axelV");
         List<String> res = inp.stream().filter(obj -> obj.contains("v") || obj.contains("V")).toList();
         System.out.println(res);
     }
