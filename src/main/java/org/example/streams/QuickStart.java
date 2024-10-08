@@ -11,7 +11,6 @@ public class QuickStart {
         inp.add("axel");
         List<String> res = inp.stream().filter(obj -> obj.contains("v") || obj.contains("V")).toList();
         System.out.println(res);
-
     }
 }
 
