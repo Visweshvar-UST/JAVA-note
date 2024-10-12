@@ -19,7 +19,7 @@ public class BaseStreams {
                 .sorted()
                 .toList();
 
-        System.out.println();
+        System.out.println(res);
     }
 
     static class Book{
